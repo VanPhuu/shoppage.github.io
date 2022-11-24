@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Trang-TMDT/css-admin.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <a href="/Trang-TMDT/san-pham.html">Sản phẩm</a>
+        <a href="/Trang-TMDT/gio-hang.html">Giỏ hàng</a>
+        <a class="active" href="#">Admin</a>
+      </nav>
+      <div class="admin">
+        <form class="form" novalidate>
+          <label for="title">Tên sản phẩm</label>
+          <div class="title">
+            <input type="text" name="title" id="title" />
+            <p class="erro hidden">*Thông tin không được bỏ trống</p>
+          </div>
+          <label for="imgUrl">Hình ảnh</label>
+          <div class="imgUrl">
+            <input type="text" name="imgUrl" id="imgUrl" />
+            <p class="erro hidden">*Thông tin không được bỏ trống</p>
+          </div>
+          <label for="price">Giá</label>
+          <div class="price">
+            <input type="text" name="price" id="price" />
+            <p class="erro hidden">*Thông tin không được bỏ trống</p>
+          </div>
+          <label for="description">Mô tả</label>
+          <div class="description">
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <p class="erro hidden">*Thông tin không được bỏ trống</p>
+          </div>
+          <button type="submit">Đăng sản phẩm</button>
+        </form>
+      </div>
+    </div>
+    <script src="/Trang-TMDT/js-admin.js"></script>
+  </body>
+</html>

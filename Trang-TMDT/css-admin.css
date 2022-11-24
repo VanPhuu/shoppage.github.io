@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .nav {
+    width: 100vw;
+    height: 50px;
+    background-color: blueviolet;
+  }
+  a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  nav {
+    width: 100vw;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .erro {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+  }
+  .admin {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 300px;
+  }
+  textarea {
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden;
+  }
