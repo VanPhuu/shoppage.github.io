@@ -17,7 +17,7 @@
   }
   nav {
     width: 100vw;
-    height: 80px;
+    height: 100px;
     background-color: blueviolet;
     display: flex;
     justify-content: space-evenly;
@@ -28,4 +28,174 @@
   }
   .active {
     background-color: rgba(255, 255, 255, 0.3);
+   position: relative;
+
   }
+  .display{
+    margin-top: 50px;
+    margin-left:5%;
+    margin-right: 5%;
+  }
+  .products{
+    display: inline-block;
+    width: 50%;
+  }
+  .products-list-in{
+    list-style: none;
+    display: flex;
+    border-top: 4px solid violet;
+    border-bottom: 4px solid violet;
+    justify-content: space-between;
+  }
+  .title{
+    font-size: 24px
+  }
+  .name{
+    font-weight: 700;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+  }
+  .bill{
+    display: inline-block;
+    border: 2px solid violet;
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 20%;
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+  }
+  .bill-info{
+    display: flex;
+flex-direction: column;
+  }
+  .bill-money{
+    width: 300px;
+  }
+  
+  .bill p{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    
+  }
+  .bill-product-in{
+    display: flex;
+  }
+ 
+
+  .bill-product{
+    margin-top: 30px;
+  }
+  .total{
+   font-size: 24px;
+font-weight: 600;
+margin-top: 30px;
+margin-left: -5px;
+display: flex;
+justify-content: space-around;
+gap: 80px;
+  }
+  .pay{
+    display: inline;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: rgba(0, 0, 255, 0.9);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+  }
+  .bill p{
+    margin-top: 5%;
+  }
+  .thanh-toan{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .gh{
+   position: relative;
+  }
+ .cercil{
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top:-25%;
+  right: -8.75%;
+  background-color: red;
+  text-align: center;
+  line-height: 25px;
+ }
+ .fa-xmark{
+ scale: 1.5;
+ cursor: pointer;
+ position: relative;
+ top:100px;
+ right: 20px;
+ }
+ .modal-question {
+  width: 100%;
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+.modal-hidden {
+  visibility: hidden;
+  }
+.modal {
+width: 650px;
+height: 200px;
+background-color: rgba(138, 43, 226, 0.7);
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+position: absolute;
+top: 30%;
+left: 50%;
+translate: -50% -50%;
+}
+h2 {
+font-size: 32px;
+
+}
+
+.yes {
+font-size: 20px;
+padding: 15px;
+color: white;
+display: inline-block;
+cursor: pointer;
+width: 60px;
+text-align: center;
+background-color: red;
+
+}
+
+.no {
+font-size: 20px;
+padding: 15px;
+color: white;
+display: inline-block;
+cursor: pointer;
+background-color: blue;
+}
+.confirm {
+  display: flex;
+  gap: 50px;
+}
