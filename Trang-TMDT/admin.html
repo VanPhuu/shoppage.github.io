@@ -18,7 +18,10 @@
     <div class="main">
       <nav>
         <a href="/Trang-TMDT/san-pham.html">Sản phẩm</a>
-        <a href="/Trang-TMDT/gio-hang.html">Giỏ hàng</a>
+        <a class="gh" href="/Trang-TMDT/gio-hang.html"
+          >Giỏ hàng
+          <div class="cercil"></div
+        ></a>
         <a class="active" href="#">Admin</a>
       </nav>
       <div class="admin">
@@ -35,7 +38,7 @@
           </div>
           <label for="price">Giá</label>
           <div class="price">
-            <input type="text" name="price" id="price" />
+            <input type="number" name="price" id="price" />
             <p class="erro hidden">*Thông tin không được bỏ trống</p>
           </div>
           <label for="description">Mô tả</label>
@@ -53,6 +56,6 @@
         </form>
       </div>
     </div>
-    <script src="/Trang-TMDT/js-admin.js"></script>
+    <script src="/Trang-TMDT/js-admin.js" type="module"></script>
   </body>
 </html>

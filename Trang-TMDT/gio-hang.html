@@ -18,10 +18,42 @@
     <div class="main">
       <nav>
         <a href="/Trang-TMDT/san-pham.html">Sản phẩm</a>
-        <a class="active" href="#">Giỏ hàng</a>
+        <a class="active gh" href="#"
+          >Giỏ hàng
+          <div class="cercil"></div>
+        </a>
         <a href="/Trang-TMDT/admin.html">Admin</a>
       </nav>
+
+      <div class="modal-question modal-hidden">
+        <div class="modal">
+          <h2>Bạn có muốn xóa sản phẩm này không?</h2>
+          <div class="confirm">
+            <p id="1234" class="yes">Có</p>
+            <p class="no">Không</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="display">
+        <div class="products">
+          <ul class="products-list"></ul>
+        </div>
+        <div class="bill">
+          <p>Tổng hóa đơn</p>
+          <div class="bill-info">
+            <ol class="bill-product"></ol>
+            <div class="total">
+              <div class="total">TỔNG</div>
+              <div class="total money1"></div>
+            </div>
+            <div class="thanh-toan">
+              <a href="#"> <button class="pay">Thanh toán</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="/Trang-TMDT/js-giohang.js"></script>
+    <script src="/Trang-TMDT/js-giohang.js" type="module"></script>
   </body>
 </html>
